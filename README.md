@@ -1,72 +1,53 @@
 <p align="center"><img width="320" src="https://github.com/laurieburchell/open-lid-dataset/blob/0cbea4aca70677333da1d7d63babeaab538d7e56/openlid-logo.png" alt="OpenLID - fast natural language identification for 200+ languages"></p>
 
-# OpenLID
+# OpenLID-v3
 
-Fast natural language identification for 200+ languages, plus all the data to train the model.
+Fast natural language identification for 184 languages, plus (almost) all the data to train the model (work in progress).
 
 > [!NOTE]
-> An updated version of the OpenLID model and dataset is available on HuggingFace: [OpenLID-v2](https://huggingface.co/datasets/laurievb/OpenLID-v2)
+> The previous version -- OpenLID-v2 model and dataset is available on HuggingFace: [OpenLID-v2](https://huggingface.co/datasets/laurievb/OpenLID-v2)
 
 ## Features
 
- - Supports [201 languages](languages.md)
+ - Supports 184 languages
  - High performance
  - Fast and easy to use
  - Fully transparent: training data and per-language performance openly available
- - Used by [Wikimedia](https://diff.wikimedia.org/2023/10/24/open-language-identification-api-for-200-languages/)
+ - Used by [HPLT](https://hplt-project.org/)
+
+## Updates compared to OpenLID-v2
+
+- frp_Latn, lat_Latn, srp_Latn classes added
+- not-a-language class zxx_Zxxx added
+- dyu_Latn class merged with bam_Latn class (the classes are not distinguishable with this type of model trained on the data we were able to obtain)
+- for the same reason, Arabic dialects merged into the macrolanguage ara_Arab; pes_Arab and prs_Arab merged into the macrolanguage fas_Arab
+- pilar data for oci_Latn class not used (caused false positives)
+- for some languages, training data from [glotlid-corpus](https://huggingface.co/datasets/cis-lmu/glotlid-corpus) and Wikipedia added
 
 ## Get started
 
 OpenLID is a [fastText](https://fasttext.cc/docs/en/support.html) model.
 
-To download and decompress:
+To download:
 
 ```shell
-wget https://data.statmt.org/lid/lid201-model.bin.gz
-pigz -d lid201-model.bin.gz
+wget https://zenodo.org/records/17601701/files/openlid-v3.bin
 ```
 
 Example to get most likely labels for $DATA:
 
 ```shell
-fasttext predict lid201-model.bin $DATA > output.fasttext
+fasttext predict openlid-v3.bin $DATA > output.fasttext
 
 ```
-
-### Quantised model
-
-There is also a quantised version of the model with a much smaller memory footprint (7MB rather than 1.2GB) but similar performance (macroaverage F1 score of 0.921 versus 0.927). 
-
-```shell
-wget https://data.statmt.org/lid/lid201-model.ftz
-```
-
 
 ## Dataset
 
-Download the dataset (c. 21GB) and convert it to fastText training format:
-```shell
-wget https://data.statmt.org/lid/lid201-data.tsv.gz
-pigz -dc lid201-data.tsv.gz | awk -F"\t" '{print"__label__"$2" "$1}' > lid201-data.fasttext.tsv
-
-```
-Each tab-separated line consists of a sentence in one of the 201 languages, a code for the language, and script (e.g. `wol_Latn` = Wolof in Latin script), and the source of that line of data.
-
-The classes in the training dataset have been sampled to help ameliorate class skew. This means that the larger classes have been subsampled and the smaller classes have been upsampled. If you would like the unsampled datset, you can download it from https://data.statmt.org/lid/lid201-data-unsampled.tsv.gz. 
-
+work in progress
 
 ## Training
 
-We used the following command to train the model:
-```shell
-fasttext supervised -input lid201-data.fasttext.tsv -output lid201-model -minCount 1000 -bucket 1000000 -minn 2 -maxn 5 -lr 0.8 -dim 256 -epoch 2 -thread 68 -wordNgrams 1
-```
-More details about the dataset and model creation are available in the accompanying paper: [An Open Dataset and Model for Language Identification](https://aclanthology.org/2023.acl-short.75.pdf).
-
-To train the quantised model, we ran:
-```shell
-fasttext quantize -input lid201-data.fasttext.tsv -output lid201-model -minCount 1000 -bucket 1000000 -minn 2 -maxn 5 -lr 0.8 -dim 256 -epoch 2 -thread 68 -wordNgrams 1 -qnorm -cutoff 50000 -retrain
-```
+[Instructions on training](https://github.com/hplt-project/mtm25-langid?tab=readme-ov-file#retraining-openlid-with-all-the-new-data-and-changes) (work in progress)
 
 ## Citations
 
@@ -76,3 +57,9 @@ If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.7
 ## Licenses
 
 The model is licensed under the [GNU General Public License v3.0](LICENSE). The individual datasets that make up the training dataset have different licenses but all allow (at minimum) free use for research - [a full list](licenses.md) is available in this repo.
+
+
+---------------------------------------------------------------------------------------------
+
+<sub><sup>This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101070350 and from UK Research and Innovation (UKRI) under the UK government’s Horizon Europe funding guarantee [grant number 10052546].
+The contents of this publication are the sole responsibility of the HPLT consortium and do not necessarily reflect the opinion of the European Union.</sup></sub>
