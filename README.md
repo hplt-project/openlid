@@ -47,7 +47,36 @@ work in progress
 
 ## Training
 
-[Instructions on training](https://github.com/hplt-project/mtm25-langid?tab=readme-ov-file#retraining-openlid-with-all-the-new-data-and-changes) (work in progress)
+`cd retrain_openlid`
+
+This folder contains mostly OpenLID author's scripts with minor changes. The current cleaning is language-independent.
+
+### OpenLID pipeline
+
+Following [OpenLID's instructions](https://huggingface.co/datasets/laurievb/OpenLID-v2/blob/main/how_to_update.md) (be cautious, they were not fully up-to-date),  the pipeline is as follows:
+
+1. Find additional data and format by the scheme `<text>\t<language>\t<source>`. If it is an addition to an existing language, it can be appended to it either from a *.parquet or *.tsv using the script `append_to_openlid_parquet.py`.
+If the data are for a new language, just convert to a parquet.
+
+2. Data for all languages must be in the same directory.
+
+3. Cleaning, deduplication, up/downsampling, writing to FastText format and shuffling are done by `make_training_openlid.py`. I was able to run that script on my laptop with only 16 GB of memory, except shuffling. If you fail on memory when shuffling, run `shuf.sh` on LUMI.
+
+When running from scratch, the command is
+
+```commandline
+python3 make_training_openlid.py <output_dir> --data_dir <data_dir>
+```
+
+If the output of stage 2 from `make_training_openlid.py`, named openlid_stage2_prep.fasttext,  is in <data_dir> directory  and contains only languages of interest, 
+the command to run preprocessing will be:
+
+```commandline
+python3 make_training_openlid.py <output_dir> --skip_clean --skip_sort
+```
+
+4. The training on LUMI is run by `lid.sh`. Don't forget to pass a new path to data/saved model instead of the default one. The hyperparameters are the same as in OpenLID-v2.
+
 
 ## Citations
 
