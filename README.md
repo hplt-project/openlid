@@ -45,6 +45,29 @@ fasttext predict openlid-v3.bin $DATA > output.fasttext
 
 work in progress
 
+### Adding GlotLID data
+
+`cd add_data/glotlid`
+
+For v3, we used glotlid-corpus data for several languages.
+It is also possible download them using the script `download_glotlid.py`.
+
+`make_list_of_glotlid_sources.py` creates the list of GlotLID sources for each language and shows number of samples in GlotLID data.
+There is no need to run it, since the resulting list is in `other.tsv` in the root of this repository.
+
+The script `add_from_glotlid.py` shows how to select only the data sources that are of reliable quality and not proprietary. (Beware of hardcoded paths...)
+The list of filters there is also for the languages we worked with before;
+for Scandinavian etc., if there are some other sources, check their quality and license according to [GlotLID list](https://github.com/cisnlp/GlotLID/blob/main/sources.md).
+We also collected licenses of the sources we used [here](https://docs.google.com/spreadsheets/d/162EzUGXDllmujoNG5s_XngSlL4awOJ9F79t5k2OM_FQ/edit?gid=737547198#gid=737547198) at LangID sources sheet.
+
+That script also ensures that wikipedia GlotLID data do not intersect with OpenLID wikipedia data.
+
+### Adding Wikipedia data
+
+We also used the most recent (at the fall 2025) Wikipedia data for some languages in v3.
+
+`cd add_data/wikipedia`
+
 ## Training
 
 `cd retrain_openlid`

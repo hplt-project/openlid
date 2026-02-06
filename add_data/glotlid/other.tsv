@@ -1,0 +1,367 @@
+lang	samples	sources
+fas_Arab	118963	fas_Arab_GlotStoryBook+prs.txt, fas_Arab_leipzigwiki+pes.txt, fas_Arab_leipzigwiki.txt, fas_Arab_mizan+pes.txt, fas_Arab_ud.txt, fas_Arab_tatoeba+pes.txt, fas_Arab_GlotStoryBook.txt, fas_Arab_nllbSeed+prs.txt, fas_Arab_floresdev+prs.txt, fas_Arab_tep+pes.txt, fas_Arab_floresdev+pes.txt, fas_Arab_commonvoice.txt, fas_Arab_xlsum+pes.txt
+nds_Latn	117676	nds_Latn_leipzigwiki.txt, nds_Latn_lyrics.txt, nds_Latn_tatoeba.txt, nds_Latn_ud.txt
+mhr_Cyrl	114710	mhr_Cyrl_tatoeba.txt, mhr_Cyrl_lyrics+chm.txt, mhr_Cyrl_commonvoice.txt, mhr_Cyrl_leipzigwiki.txt, mhr_Cyrl_smugriflores.txt
+fry_Latn	110315	fry_Latn_commonvoice.txt, fry_Latn_tatoeba.txt, fry_Latn_leipzigwiki.txt
+bar_Latn	100208	bar_Latn_leipzigwiki.txt, bar_Latn_tatoeba.txt
+wuu_Hani	87488	wuu_Hani_tatoeba.txt, wuu_Hani_leipzigwiki.txt
+lzh_Hani	86099	lzh_Hani_ud.txt, lzh_Hani_tatoeba.txt, lzh_Hani_lyrics.txt
+ina_Latn	66216	ina_Latn_leipzigwiki.txt, ina_Latn_lyrics.txt, ina_Latn_commonvoice.txt, ina_Latn_tatoeba.txt
+tok_Latn	57474	tok_Latn_tatoeba.txt, tok_Latn_commonvoice.txt
+bcl_Latn	40007	bcl_Latn_leipzigwiki+bik.txt, bcl_Latn_leipzigwiki.txt, bcl_Latn_lyrics+bik.txt
+ido_Latn	39606	ido_Latn_leipzigwiki.txt, ido_Latn_tatoeba.txt, ido_Latn_lyrics.txt
+abk_Cyrl	39327	abk_Cyrl_commonvoice.txt, abk_Cyrl_tatoeba.txt, abk_Cyrl_abnc.txt
+div_Thaa	37146	div_Thaa_commonvoice.txt, div_Thaa_tatoeba.txt, div_Thaa_leipzigwiki.txt
+roh_Latn	35831	roh_Latn_leipzigwiki.txt, roh_Latn_commonvoice.txt, roh_Latn_tatoeba.txt, roh_Latn_lyrics.txt
+chv_Cyrl	35562	chv_Cyrl_lyrics.txt, chv_Cyrl_leipzigwiki.txt, chv_Cyrl_tatoeba.txt, chv_Cyrl_commonvoice.txt
+grc_Grek	33508	grc_Grek_lyrics.txt, grc_Grek_tatoeba.txt, grc_Grek_ud.txt
+hsb_Latn	33249	hsb_Latn_tatoeba.txt, hsb_Latn_ud.txt, hsb_Latn_leipzigwiki.txt, hsb_Latn_commonvoice.txt, hsb_Latn_lyrics.txt
+nan_Latn	33183	nan_Latn_commonvoice.txt, nan_Latn_lyrics.txt, nan_Latn_leipzigwiki.txt
+diq_Latn	32996	diq_Latn_lyrics+zza.txt, diq_Latn_tatoeba+zza.txt, diq_Latn_leipzigwiki.txt
+orv_Cyrl	32744	orv_Cyrl_ud.txt, orv_Cyrl_tatoeba.txt
+pms_Latn	30764	pms_Latn_leipzigwiki.txt, pms_Latn_tatoeba.txt
+nap_Latn	30717	nap_Latn_lyrics.txt, nap_Latn_leipzigwiki.txt, nap_Latn_ud.txt
+arg_Latn	30488	arg_Latn_lyrics.txt, arg_Latn_tatoeba.txt, arg_Latn_leipzigwiki.txt
+xmf_Geor	30052	xmf_Geor_tatoeba.txt, xmf_Geor_leipzigwiki.txt, xmf_Geor_lyrics.txt
+mwl_Latn	30046	mwl_Latn_lyrics.txt, mwl_Latn_tatoeba.txt, mwl_Latn_leipzigwiki.txt
+che_Cyrl	30045	che_Cyrl_tatoeba.txt, che_Cyrl_leipzigwiki.txt, che_Cyrl_lyrics.txt
+wln_Latn	30035	wln_Latn_leipzigwiki.txt, wln_Latn_tatoeba.txt
+eml_Latn	30000	eml_Latn_leipzigwiki.txt
+vls_Latn	30000	vls_Latn_leipzigwiki.txt
+bpy_Beng	29998	bpy_Beng_leipzigwiki.txt
+new_Deva	29972	new_Deva_lyrics.txt, new_Deva_leipzigwiki.txt, new_Deva_tatoeba.txt
+mzn_Arab	29898	mzn_Arab_leipzigwiki.txt
+cmn_Hani	28910	cmn_Hani_leipzigwiki.txt, cmn_Hani_commonvoice.txt, cmn_Hani_tatoeba.txt
+chu_Cyrl	24610	chu_Cyrl_Wikipedia.txt, chu_Cyrl_ud.txt
+glk_Arab	24065	glk_Arab_lyrics.txt, glk_Arab_GlotSparse.txt, glk_Arab_leipzigwiki.txt
+mrj_Cyrl	23101	mrj_Cyrl_tatoeba.txt, mrj_Cyrl_leipzigwiki.txt, mrj_Cyrl_smugriflores.txt, mrj_Cyrl_commonvoice.txt
+swc_Latn	23094	swc_Latn_tatoeba.txt
+hbs_Latn	22667	hbs_Latn_floresdev+hrv.txt, hbs_Latn_wili2018+hrv.txt, hrv_Latn_leipzigwiki.txt, hbs_Latn_leipzignews+bos.txt, hbs_Latn_ud+hrv.txt, hbs_Latn_tatoeba+bos.txt, hbs_Latn_wili2018+bos.txt, hbs_Latn_lyrics+cnr.txt, hbs_Latn_leipzigwiki+bos.txt, hbs_Latn_floresdev+bos.txt, hbs_Latn_tatoeba+hrv.txt, hbs_Latn_setimes+hrv.txt, hbs_Latn_setimes+bos.txt
+tlh_Latn	19269	tlh_Latn_lyrics.txt, tlh_Latn_tatoeba.txt
+bew_Latn	19166	bew_Latn_nusa.txt
+fro_Latn	18582	fro_Latn_tatoeba.txt, fro_Latn_ud.txt, fro_Latn_lyrics.txt
+ile_Latn	16958	ile_Latn_tatoeba.txt, ile_Latn_leipzigwiki.txt
+yue_Hani	16306	yue_Hani_hkcancor.txt, yue_Hani_GlotStoryBook.txt, yue_Hani_ud.txt, yue_Hani_tatoeba.txt, yue_Hani_commonvoice.txt
+oss_Cyrl	15780	oss_Cyrl_leipzigwiki.txt, oss_Cyrl_tatoeba.txt
+mak_Latn	14891	mak_Latn_nusa.txt
+jbo_Latn	14635	jbo_Latn_lyrics.txt, jbo_Latn_tatoeba.txt
+mad_Latn	14616	mad_Latn_nusa.txt
+lfn_Latn	14344	lfn_Latn_tatoeba.txt
+myv_Cyrl	14123	myv_Cyrl_commonvoice.txt, myv_Cyrl_smugriflores.txt, myv_Cyrl_leipzigwiki.txt, myv_Cyrl_ud.txt, myv_Cyrl_tatoeba.txt
+dag_Latn	14004	dag_Latn_HFWikipedia.txt, dag_Latn_GlotStoryBook.txt
+nnb_Latn	13942	nnb_Latn_tatoeba.txt
+hun_Hung	13920	hun_Hung_FineWeb2.txt
+ksh_Latn	13448	ksh_Latn_lyrics.txt, ksh_Latn_tatoeba.txt, ksh_Latn_leipzigwiki.txt
+bre_Latn	13436	bre_Latn_ud.txt, bre_Latn_tatoeba.txt, bre_Latn_commonvoice.txt
+dty_Deva	13318	dty_Deva_Wikipedia.txt
+sme_Latn	13272	sme_Latn_leipzigwiki.txt, sme_Latn_GlotStoryBook.txt, sme_Latn_ud.txt, sme_Latn_tatoeba.txt
+frr_Latn	12699	frr_Latn_leipzigwiki.txt, frr_Latn_tatoeba.txt
+glv_Latn	12359	glv_Latn_leipzigwiki.txt, glv_Latn_tatoeba.txt, glv_Latn_ud.txt
+lad_Latn	11848	lad_Latn_lyrics.txt, lad_Latn_tatoeba.txt, lad_Latn_leipzigwiki.txt
+bxr_Cyrl	11592	bxr_Cyrl_ud.txt, bxr_Cyrl_leipzigwiki+bua.txt, bxr_Cyrl_tatoeba+bua.txt
+pcm_Latn	11437	pcm_Latn_lyrics.txt, pcm_Latn_GlotStoryBook.txt, pcm_Latn_ud.txt, pcm_Latn_masakhanews.txt
+pam_Latn	11309	pam_Latn_tatoeba.txt, pam_Latn_leipzigwiki.txt
+kpv_Cyrl	11297	kpv_Cyrl_lyrics+kom.txt, kpv_Cyrl_smugriflores.txt, kpv_Cyrl_ud.txt, kpv_Cyrl_leipzigwiki+kom.txt, kpv_Cyrl_tatoeba.txt
+cdo_Latn	11268	cdo_Latn_Wikipedia.txt
+csb_Latn	10984	csb_Latn_leipzigwiki.txt, csb_Latn_lyrics.txt, csb_Latn_tatoeba.txt
+dsb_Latn	10900	dsb_Latn_leipzigwiki.txt, dsb_Latn_tatoeba.txt
+krc_Cyrl	10427	krc_Cyrl_tatoeba.txt, krc_Cyrl_lyrics.txt, krc_Cyrl_leipzigwiki.txt
+tyv_Cyrl	10276	tyv_Cyrl_lyrics.txt, tyv_Cyrl_leipzigwiki.txt, tyv_Cyrl_tatoeba.txt
+udm_Cyrl	10267	udm_Cyrl_leipzigwiki.txt, udm_Cyrl_tatoeba.txt, udm_Cyrl_smugriflores.txt, udm_Cyrl_lyrics.txt
+ext_Latn	10227	ext_Latn_tatoeba.txt, ext_Latn_lyrics.txt, ext_Latn_leipzigwiki.txt
+nav_Latn	10192	nav_Latn_leipzigwiki.txt, nav_Latn_lyrics.txt, nav_Latn_tatoeba.txt
+hif_Latn	10040	hif_Latn_tatoeba.txt, hif_Latn_leipzigwiki.txt, hif_Latn_lyrics.txt
+sgs_Latn	10022	sgs_Latn_tatoeba.txt, sgs_Latn_lyrics.txt, sgs_Latn_leipzigwiki.txt
+vro_Latn	10011	vro_Latn_tatoeba.txt, vro_Latn_leipzigwiki.txt
+gom_Latn	10010	gom_Latn_lyrics+knn.txt, gom_Latn_leipzigwiki.txt, gom_Latn_GlotStoryBook+knn.txt
+cos_Latn	10010	cos_Latn_tatoeba.txt, cos_Latn_leipzigwiki.txt
+zea_Latn	10007	zea_Latn_tatoeba.txt, zea_Latn_leipzigwiki.txt
+rue_Cyrl	10001	rue_Cyrl_leipzigwiki.txt, rue_Cyrl_tatoeba.txt
+pfl_Latn	10000	pfl_Latn_leipzigwiki.txt
+nqo_Nkoo	9966	nqo_Nkoo_HFWikipedia.txt
+tcy_Knda	9950	tcy_Knda_leipzigwiki.txt
+koi_Cyrl	9928	koi_Cyrl_ud.txt, koi_Cyrl_tatoeba.txt, koi_Cyrl_leipzigwiki.txt
+jav_Java	7762	jav_Java_FineWeb2.txt, jav_Java_tatoeba.txt
+cbk_Latn	6746	cbk_Latn_tatoeba.txt, cbk_Latn_lyrics.txt, cbk_Latn_HFWikipedia.txt
+lfn_Cyrl	6653	lfn_Cyrl_tatoeba.txt
+hyw_Armn	6652	hyw_Armn_ud.txt
+trv_Latn	6228	trv_Latn_HFWikipedia.txt
+frp_Latn	6090	frp_Latn_HFWikipedia.txt
+sah_Cyrl	5649	sah_Cyrl_commonvoice.txt, sah_Cyrl_leipzigwiki.txt, sah_Cyrl_lyrics.txt, sah_Cyrl_tatoeba.txt, sah_Cyrl_ud.txt
+got_Latn	5479	got_Latn_lyrics.txt, got_Latn_ud.txt
+nrf_Latn	5461	nrf_Latn_HFWikipedia.txt
+anp_Deva	5294	anp_Deva_HFWikipedia.txt
+kzj_Latn	5077	kzj_Latn_tatoeba.txt
+gos_Latn	4643	gos_Latn_tatoeba.txt
+tly_Latn	4579	tly_Latn_HFWikipedia.txt, tly_Latn_tatoeba.txt
+vol_Latn	4360	vol_Latn_leipzigwiki.txt, vol_Latn_tatoeba.txt
+syl_Sylo	4201	syl_Sylo_FineWeb2.txt
+san_Latn	3997	san_Latn_ud.txt
+rhg_Latn	3827	rhg_Latn_tatoeba.txt
+tig_Ethi	3605	tig_Ethi_tatoeba.txt, tig_Ethi_commonvoice.txt
+avk_Latn	3596	avk_Latn_tatoeba.txt
+gmh_Latn	3579	gmh_Latn_lyrics.txt
+cor_Latn	3444	cor_Latn_tatoeba.txt, cor_Latn_lyrics.txt
+jam_Latn	3376	jam_Latn_tatoeba.txt, jam_Latn_lyrics.txt, jam_Latn_GlotStoryBook.txt
+mui_Latn	3048	mui_Latn_nusa.txt
+nbl_Latn	3010	nbl_Latn_Vukuzenzele.txt, nbl_Latn_GlotStoryBook.txt
+szy_Latn	2984	szy_Latn_HFWikipedia.txt
+inh_Cyrl	2967	inh_Cyrl_lyrics.txt, inh_Cyrl_HFWikipedia.txt
+lgg_Latn	2935	lgg_Latn_GlotStoryBook.txt
+rej_Latn	2774	rej_Latn_nusa.txt
+ven_Latn	2739	ven_Latn_Vukuzenzele.txt, ven_Latn_GlotStoryBook.txt, ven_Latn_lyrics.txt
+dtp_Latn	2666	dtp_Latn_tatoeba.txt
+pcd_Latn	2604	pcd_Latn_lyrics.txt, pcd_Latn_tatoeba.txt
+shi_Latn	2500	shi_Latn_tatoeba.txt
+skr_Arab	2384	skr_Arab_tatoeba.txt, skr_Arab_lyrics.txt, skr_Arab_commonvoice.txt
+cnh_Latn	2341	cnh_Latn_commonvoice.txt
+myx_Latn	2336	myx_Latn_GlotStoryBook.txt
+cop_Copt	2159	cop_Copt_ud.txt
+nov_Latn	2133	nov_Latn_tatoeba.txt, nov_Latn_HFWikipedia.txt
+gsw_Latn	2121	gsw_Latn_tatoeba.txt, gsw_Latn_ud.txt, gsw_Latn_leipzigwiki.txt, gsw_Latn_wili2018.txt
+ady_Cyrl	2078	ady_Cyrl_Wikipedia.txt, ady_Cyrl_lyrics.txt, ady_Cyrl_tatoeba.txt
+fat_Latn	2041	fat_Latn_GlotStoryBook.txt, fat_Latn_GlotSparse.txt
+atj_Latn	1956	atj_Latn_HFWikipedia.txt
+swg_Latn	1940	swg_Latn_tatoeba.txt
+nuj_Latn	1821	nuj_Latn_GlotStoryBook.txt
+kha_Latn	1790	kha_Latn_tatoeba.txt, kha_Latn_lyrics.txt
+arq_Arab	1766	arq_Arab_tatoeba.txt
+hbo_Hebr	1680	hbo_Hebr_ud.txt, hbo_Hebr_tatoeba.txt
+kbd_Cyrl	1673	kbd_Cyrl_lyrics.txt, kbd_Cyrl_tatoeba.txt
+bas_Latn	1664	bas_Latn_commonvoice.txt
+lwg_Latn	1638	lwg_Latn_GlotStoryBook.txt
+bhp_Latn	1577	bhp_Latn_nusa.txt
+abs_Latn	1571	abs_Latn_nusa.txt
+ckt_Cyrl	1527	ckt_Cyrl_ud.txt, ckt_Cyrl_tatoeba.txt
+gcf_Latn	1499	gcf_Latn_tatoeba.txt
+rup_Latn	1485	rup_Latn_lyrics.txt
+quc_Latn	1435	quc_Latn_ud.txt
+rop_Latn	1252	rop_Latn_lyrics.txt
+gub_Latn	1182	gub_Latn_ud.txt
+hrx_Latn	1133	hrx_Latn_tatoeba.txt
+mas_Latn	1114	mas_Latn_GlotStoryBook.txt
+prg_Latn	1049	prg_Latn_tatoeba.txt
+tat_Latn	1042	tat_Latn_tatoeba.txt, tat_Latn_lyrics.txt
+kng_Latn	1010	kng_Latn_floresdev+kon.txt, kng_Latn_lyrics+kon.txt
+min_Arab	997	min_Arab_floresdev.txt
+arb_Latn	997	arb_Latn_floresdev.txt
+pnt_Grek	996	pnt_Grek_lyrics.txt
+aln_Latn	982	aln_Latn_tatoeba.txt, aln_Latn_ud.txt
+mdf_Cyrl	963	mdf_Cyrl_smugriflores.txt, mdf_Cyrl_ud.txt, mdf_Cyrl_tatoeba.txt, mdf_Cyrl_commonvoice.txt
+nhi_Latn	909	nhi_Latn_ud.txt
+xal_Cyrl	907	xal_Cyrl_lyrics.txt, xal_Cyrl_tatoeba.txt
+guz_Latn	896	guz_Latn_GlotStoryBook.txt
+tay_Latn	875	tay_Latn_HFWikipedia.txt
+yrl_Latn	859	yrl_Latn_ud.txt
+loz_Latn	850	loz_Latn_GlotStoryBook.txt
+say_Latn	816	say_Latn_ud.txt
+sdc_Latn	815	sdc_Latn_lyrics.txt
+guc_Latn	810	guc_Latn_tatoeba.txt
+sjo_Mong	810	sjo_Mong_ud.txt
+ota_Arab	794	ota_Arab_tatoeba.txt, ota_Arab_lyrics.txt
+eme_Latn	759	eme_Latn_ud.txt
+sdh_Arab	750	sdh_Arab_tatoeba.txt, sdh_Arab_GlotSparse.txt
+nst_Latn	745	nst_Latn_tatoeba.txt
+krl_Latn	719	krl_Latn_lyrics.txt, krl_Latn_tatoeba.txt, krl_Latn_ud.txt
+koo_Latn	679	koo_Latn_GlotStoryBook.txt
+arr_Latn	674	arr_Latn_ud.txt
+pwn_Latn	661	pwn_Latn_HFWikipedia.txt
+sco_Latn	650	sco_Latn_leipzigwiki.txt, sco_Latn_tatoeba.txt, sco_Latn_lyrics.txt
+non_Latn	591	non_Latn_tatoeba.txt, non_Latn_lyrics.txt
+hoc_Wara	588	hoc_Wara_FineWeb2.txt, hoc_Wara_tatoeba.txt
+tpn_Latn	581	tpn_Latn_ud.txt
+ang_Latn	577	ang_Latn_lyrics.txt, ang_Latn_tatoeba.txt
+uzn_Cyrl	508	uzn_Cyrl_tatoeba+uzb.txt, uzn_Cyrl_leipzigwiki+uzb.txt
+uig_Latn	504	uig_Latn_lyrics.txt
+mus_Latn	478	mus_Latn_lyrics.txt, mus_Latn_tatoeba+mik.txt, mus_Latn_tatoeba.txt
+ndo_Latn	468	ndo_Latn_GlotStoryBook.txt
+her_Latn	462	her_Latn_GlotStoryBook.txt
+hoc_Latn	448	hoc_Latn_tatoeba.txt
+kua_Latn	441	kua_Latn_GlotStoryBook.txt
+thv_Latn	438	thv_Latn_tatoeba.txt
+enm_Latn	437	enm_Latn_tatoeba.txt, enm_Latn_lyrics.txt
+tet_Latn	431	tet_Latn_lyrics.txt, tet_Latn_tatoeba.txt, tet_Latn_GlotStoryBook.txt
+fkv_Latn	428	fkv_Latn_tatoeba.txt
+tpw_Latn	424	tpw_Latn_tatoeba.txt
+ktz_Latn	420	ktz_Latn_GlotStoryBook.txt
+syc_Syrc	406	syc_Syrc_HFWikipedia.txt, syc_Syrc_tatoeba.txt
+tuv_Latn	394	tuv_Latn_GlotStoryBook.txt
+max_Latn	392	max_Latn_tatoeba.txt
+olo_Latn	375	olo_Latn_ud.txt, olo_Latn_smugriflores.txt
+pmq_Latn	371	pmq_Latn_GlotStoryBook.txt
+kby_Latn	367	kby_Latn_GlotStoryBook+kau.txt
+goh_Latn	360	goh_Latn_lyrics.txt
+toi_Latn	350	toi_Latn_GlotStoryBook.txt, toi_Latn_tatoeba.txt
+yua_Latn	348	yua_Latn_GlotStoryBook.txt
+luc_Latn	344	luc_Latn_GlotStoryBook.txt
+mnw_Mymr	341	mnw_Mymr_GlotStoryBook.txt, mnw_Mymr_tatoeba.txt
+zsm_Arab	331	zsm_Arab_tatoeba+zlm.txt, zsm_Arab_tatoeba.txt
+lue_Latn	330	lue_Latn_GlotStoryBook.txt
+kqn_Latn	327	kqn_Latn_GlotStoryBook.txt
+lun_Latn	326	lun_Latn_GlotStoryBook.txt
+mfe_Latn	322	mfe_Latn_GlotStoryBook.txt
+aqz_Latn	319	aqz_Latn_ud.txt
+mns_Cyrl	317	mns_Cyrl_lyrics.txt, mns_Cyrl_smugriflores.txt
+ess_Latn	309	ess_Latn_ud.txt
+cha_Latn	305	cha_Latn_lyrics.txt, cha_Latn_tatoeba.txt
+gur_Latn	303	gur_Latn_GlotStoryBook.txt
+doi_Deva	297	doi_Deva_lyrics+dgo.txt, doi_Deva_ud+xnr.txt
+srn_Latn	284	srn_Latn_lyrics.txt, srn_Latn_tatoeba.txt
+ewo_Latn	282	ewo_Latn_lyrics.txt
+liv_Latn	277	liv_Latn_smugriflores.txt, liv_Latn_tatoeba.txt
+ain_Latn	256	ain_Latn_tatoeba.txt
+xog_Latn	251	xog_Latn_GlotStoryBook.txt
+dua_Latn	250	dua_Latn_lyrics.txt
+lki_Arab	249	lki_Arab_lyrics.txt
+sms_Latn	244	sms_Latn_ud.txt
+teo_Latn	231	teo_Latn_GlotStoryBook.txt
+tzl_Latn	224	tzl_Latn_tatoeba.txt
+kca_Cyrl	208	kca_Cyrl_lyrics.txt
+lad_Hebr	202	lad_Hebr_tatoeba.txt, lad_Hebr_lyrics.txt
+lrc_Arab	198	lrc_Arab_lyrics.txt
+tah_Latn	196	tah_Latn_tatoeba.txt, tah_Latn_lyrics.txt
+nah_Latn	189	nah_Latn_tatoeba.txt
+zai_Latn	188	zai_Latn_lyrics+zap.txt
+nog_Cyrl	187	nog_Cyrl_lyrics.txt, nog_Cyrl_tatoeba.txt
+bor_Latn	184	bor_Latn_ud.txt
+tsc_Latn	182	tsc_Latn_GlotStoryBook.txt
+adh_Latn	171	adh_Latn_GlotStoryBook.txt
+kum_Cyrl	164	kum_Cyrl_lyrics.txt, kum_Cyrl_tatoeba.txt
+got_Goth	158	got_Goth_tatoeba.txt, got_Goth_lyrics.txt, got_Goth_FineWeb2.txt
+myu_Latn	158	myu_Latn_ud.txt
+gag_Latn	156	gag_Latn_lyrics.txt, gag_Latn_tatoeba.txt
+ttj_Latn	155	ttj_Latn_GlotStoryBook.txt
+apu_Latn	148	apu_Latn_ud.txt
+xav_Latn	148	xav_Latn_ud.txt
+xum_Latn	133	xum_Latn_ud.txt
+sel_Cyrl	131	sel_Cyrl_lyrics.txt
+ldn_Latn	125	ldn_Latn_tatoeba.txt
+vot_Latn	124	vot_Latn_lyrics.txt, vot_Latn_commonvoice.txt
+haw_Latn	124	haw_Latn_tatoeba.txt
+abq_Cyrl	119	abq_Cyrl_lyrics.txt, abq_Cyrl_ud.txt
+bal_Arab	113	bal_Arab_GlotSparse.txt, bal_Arab_tatoeba.txt
+kwn_Latn	110	kwn_Latn_GlotStoryBook.txt
+cho_Latn	109	cho_Latn_lyrics.txt, cho_Latn_tatoeba.txt
+kdr_Latn	101	kdr_Latn_lyrics.txt
+gun_Latn	98	gun_Latn_ud.txt
+keo_Latn	96	keo_Latn_GlotStoryBook.txt
+moh_Latn	88	moh_Latn_lyrics.txt, moh_Latn_tatoeba.txt
+stq_Latn	87	stq_Latn_tatoeba.txt
+gom_Deva	86	gom_Deva_tatoeba.txt, gom_Deva_GlotStoryBook+knn.txt, gom_Deva_lyrics+knn.txt
+crk_Latn	85	crk_Latn_GlotStoryBook.txt
+urb_Latn	83	urb_Latn_ud.txt
+kal_Latn	80	kal_Latn_tatoeba.txt
+vep_Latn	79	vep_Latn_tatoeba.txt, vep_Latn_lyrics.txt
+crh_Cyrl	78	crh_Cyrl_tatoeba.txt, crh_Cyrl_lyrics.txt
+lld_Latn	75	lld_Latn_tatoeba.txt
+dje_Latn	75	dje_Latn_GlotStoryBook.txt
+crk_Cans	70	crk_Cans_GlotStoryBook.txt
+mww_Latn	70	mww_Latn_tatoeba.txt
+iba_Latn	66	iba_Latn_tatoeba.txt
+tzo_Latn	65	tzo_Latn_lyrics.txt
+bis_Latn	63	bis_Latn_tatoeba.txt, bis_Latn_lyrics.txt
+aii_Syrc	61	aii_Syrc_tatoeba.txt, aii_Syrc_ud.txt
+mgm_Latn	56	mgm_Latn_tatoeba.txt
+hil_Latn	55	hil_Latn_tatoeba.txt, hil_Latn_lyrics.txt
+wbp_Latn	55	wbp_Latn_ud.txt
+nio_Cyrl	55	nio_Cyrl_lyrics.txt
+naq_Latn	54	naq_Latn_GlotStoryBook.txt
+mni_Latn	54	mni_Latn_lyrics.txt
+kjh_Cyrl	53	kjh_Cyrl_tatoeba.txt, kjh_Cyrl_lyrics.txt
+pdc_Latn	50	pdc_Latn_tatoeba.txt
+bom_Latn	48	bom_Latn_tatoeba.txt
+sma_Latn	46	sma_Latn_tatoeba.txt
+gjn_Latn	46	gjn_Latn_GlotStoryBook.txt
+kpz_Latn	44	kpz_Latn_GlotStoryBook.txt
+ngu_Latn	42	ngu_Latn_tatoeba.txt
+dga_Latn	40	dga_Latn_GlotStoryBook.txt
+laj_Latn	37	laj_Latn_GlotStoryBook.txt
+pnb_Arab	37	pnb_Arab_tatoeba.txt, pnb_Arab_leipzigwiki.txt
+sgh_Cyrl	36	sgh_Cyrl_lyrics.txt
+gaa_Latn	36	gaa_Latn_GlotStoryBook.txt
+niu_Latn	35	niu_Latn_tatoeba.txt, niu_Latn_lyrics.txt
+alz_Latn	34	alz_Latn_GlotStoryBook.txt
+rar_Latn	33	rar_Latn_lyrics.txt
+mnk_Latn	33	mnk_Latn_lyrics.txt
+pdt_Latn	32	pdt_Latn_lyrics.txt
+pau_Latn	32	pau_Latn_lyrics.txt, pau_Latn_tatoeba.txt
+dng_Cyrl	32	dng_Cyrl_tatoeba.txt, dng_Cyrl_lyrics.txt
+mjw_Latn	32	mjw_Latn_lyrics.txt
+arn_Latn	32	arn_Latn_lyrics.txt
+mer_Latn	30	mer_Latn_GlotStoryBook.txt
+rmy_Cyrl	30	rmy_Cyrl_lyrics+rom.txt
+gil_Latn	29	gil_Latn_tatoeba.txt, gil_Latn_lyrics.txt
+lsm_Latn	29	lsm_Latn_GlotStoryBook.txt
+kas_Latn	28	kas_Latn_lyrics.txt, kas_Latn_tatoeba.txt
+mah_Latn	27	mah_Latn_tatoeba.txt, mah_Latn_lyrics.txt
+kru_Deva	26	kru_Deva_GlotStoryBook.txt, kru_Deva_lyrics.txt
+mhi_Latn	26	mhi_Latn_GlotStoryBook.txt
+hus_Latn	26	hus_Latn_GlotStoryBook.txt
+nzi_Latn	25	nzi_Latn_GlotStoryBook.txt
+tuk_Cyrl	25	tuk_Cyrl_tatoeba.txt, tuk_Cyrl_lyrics.txt
+nch_Latn	25	nch_Latn_tatoeba.txt, nch_Latn_GlotStoryBook.txt
+asm_Latn	24	asm_Latn_lyrics.txt
+xsm_Latn	24	xsm_Latn_GlotStoryBook.txt
+ood_Latn	23	ood_Latn_tatoeba.txt
+ada_Latn	23	ada_Latn_GlotStoryBook.txt
+bbc_Latn	22	bbc_Latn_lyrics.txt
+crs_Latn	22	crs_Latn_tatoeba.txt
+uig_Cyrl	22	uig_Cyrl_tatoeba.txt, uig_Cyrl_leipzigwiki.txt, uig_Cyrl_lyrics.txt
+jaa_Latn	20	jaa_Latn_ud.txt
+nyn_Latn	20	nyn_Latn_GlotStoryBook.txt
+tew_Latn	19	tew_Latn_lyrics.txt
+nyu_Latn	19	nyu_Latn_GlotStoryBook.txt
+brx_Deva	19	brx_Deva_lyrics.txt
+zne_Latn	19	zne_Latn_GlotStoryBook.txt
+lbj_Tibt	18	lbj_Tibt_lyrics.txt
+ojb_Latn	17	ojb_Latn_tatoeba+oji.txt
+pjt_Latn	17	pjt_Latn_lyrics.txt
+toh_Latn	16	toh_Latn_GlotStoryBook.txt
+sgc_Latn	16	sgc_Latn_GlotStoryBook+kln.txt
+smn_Latn	16	smn_Latn_lyrics.txt
+zpu_Latn	16	zpu_Latn_lyrics.txt
+azj_Cyrl	15	azj_Cyrl_tatoeba+aze.txt
+sck_Deva	15	sck_Deva_GlotStoryBook.txt
+cab_Latn	15	cab_Latn_lyrics.txt
+pot_Latn	13	pot_Latn_lyrics.txt
+kek_Latn	13	kek_Latn_tatoeba.txt
+kri_Latn	12	kri_Latn_GlotStoryBook.txt
+cce_Latn	12	cce_Latn_GlotStoryBook.txt
+rap_Latn	12	rap_Latn_tatoeba.txt
+hch_Latn	11	hch_Latn_GlotStoryBook.txt
+chr_Cher	11	chr_Cher_tatoeba.txt, chr_Cher_lyrics.txt
+ton_Latn	11	ton_Latn_tatoeba.txt
+mhw_Latn	10	mhw_Latn_GlotStoryBook.txt
+kaa_Latn	10	kaa_Latn_tatoeba.txt
+cmo_Khmr	10	cmo_Khmr_tatoeba.txt
+tvl_Latn	10	tvl_Latn_tatoeba.txt
+hop_Latn	9	hop_Latn_lyrics.txt
+ava_Cyrl	9	ava_Cyrl_tatoeba.txt
+syl_Beng	9	syl_Beng_lyrics.txt
+arp_Latn	8	arp_Latn_lyrics.txt
+bvd_Latn	8	bvd_Latn_lyrics.txt
+mrg_Latn	8	mrg_Latn_lyrics.txt
+dak_Latn	8	dak_Latn_lyrics.txt
+rtm_Latn	8	rtm_Latn_lyrics.txt
+ami_Latn	7	ami_Latn_lyrics.txt
+ctu_Latn	7	ctu_Latn_GlotStoryBook.txt
+brx_Latn	7	brx_Latn_lyrics.txt
+ach_Latn	6	ach_Latn_GlotStoryBook.txt
+tkl_Latn	6	tkl_Latn_tatoeba.txt
+maz_Latn	6	maz_Latn_GlotStoryBook.txt
+kdj_Latn	6	kdj_Latn_GlotStoryBook.txt
+old_Latn	6	old_Latn_GlotStoryBook.txt
+chr_Latn	6	chr_Latn_lyrics.txt
+alt_Cyrl	6	alt_Cyrl_tatoeba.txt
+csw_Latn	5	csw_Latn_GlotStoryBook.txt
+agx_Cyrl	4	agx_Cyrl_lyrics.txt
+blk_Mymr	3	blk_Mymr_HFWikipedia.txt
+bci_Latn	3	bci_Latn_lyrics.txt
+kiu_Latn	3	kiu_Latn_GlotSparse.txt
+brh_Arab	3	brh_Arab_GlotSparse.txt
+uzs_Arab	3	uzs_Arab_GlotSparse.txt
+hac_Arab	3	hac_Arab_GlotSparse.txt
+csw_Cans	3	csw_Cans_GlotStoryBook.txt
+tuk_Arab	3	tuk_Arab_lyrics.txt
+nhe_Latn	2	nhe_Latn_GlotStoryBook.txt
+nhw_Latn	2	nhw_Latn_GlotStoryBook.txt
