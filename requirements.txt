@@ -1,0 +1,4 @@
+fasttext==0.9.3
+huggingface-hub==0.35.3
+numpy==1.23.5
+regex==2024.4.28

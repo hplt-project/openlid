@@ -1,15 +1,10 @@
-<p align="center"><img width="320" src="https://github.com/laurieburchell/open-lid-dataset/blob/0cbea4aca70677333da1d7d63babeaab538d7e56/openlid-logo.png" alt="OpenLID - fast natural language identification for 200+ languages"></p>
-
 # OpenLID-v3
 
-Fast natural language identification for 184 languages, plus (almost) all the data to train the model (work in progress).
-
-> [!NOTE]
-> The previous version -- OpenLID-v2 model and dataset is available on HuggingFace: [OpenLID-v2](https://huggingface.co/datasets/laurievb/OpenLID-v2)
+Fast natural language identification for 194 languages, plus (almost) all the data to train the model (work in progress).
 
 ## Features
 
- - Supports 184 languages
+ - Supports 194 languages
  - High performance
  - Fast and easy to use
  - Fully transparent: training data and per-language performance openly available
@@ -22,23 +17,56 @@ Fast natural language identification for 184 languages, plus (almost) all the da
 - dyu_Latn class merged with bam_Latn class (the classes are not distinguishable with this type of model trained on the data we were able to obtain)
 - for the same reason, Arabic dialects merged into the macrolanguage ara_Arab; pes_Arab and prs_Arab merged into the macrolanguage fas_Arab
 - pilar data for oci_Latn class not used (caused false positives)
-- for some languages, training data from [glotlid-corpus](https://huggingface.co/datasets/cis-lmu/glotlid-corpus) and Wikipedia added
+- for some languages, training data from [glotlid-corpus](https://huggingface.co/datasets/cis-lmu/glotlid-corpus) and [Wikipedia](https://dumps.wikimedia.org/backup-index.html) added
 
-## Get started
+## Usage
 
 OpenLID is a [fastText](https://fasttext.cc/docs/en/support.html) model.
 
-To download:
+Both [HuggingFace](https://huggingface.co/HPLT/OpenLID-v3) and direct download are available:
+
+### HuggingFace
+
+```shell
+pip install -r requirements.txt
+```
+
+```python
+import fasttext
+from huggingface_hub import hf_hub_download
+import regex
+
+# defines what we want to remove from string for langID
+NONWORD_REPLACE_STR = r"[^\p{Word}\p{Zs}]|\d"  # either (not a word nor a space) or (is digit)
+NONWORD_REPLACE_PATTERN = regex.compile(NONWORD_REPLACE_STR)
+SPACE_PATTERN = regex.compile(r"\s\s+")  # squeezes sequential whitespace
+
+
+def preprocess(text):
+    text = text.strip().replace('\n', ' ').lower()
+    text = regex.sub(SPACE_PATTERN, " ", text)
+    text = regex.sub(NONWORD_REPLACE_PATTERN, "", text)
+    return text
+
+model_path = hf_hub_download(repo_id="HPLT/OpenLID-v3", filename="openlid-v3.bin") # may take some time
+model = fasttext.load_model(model_path)
+text = "Maskinsjefen er oppteken av å løfta fram dei maritime utdanningane."
+text = preprocess(text)
+print(
+      model.predict(
+          text=text,
+          k=1,
+          threshold=0.5,
+          on_unicode_error="strict",
+  ),
+)
+# should output: (('__label__nno_Latn',), array([0.99999893]))
+```
+
+### Direct download
 
 ```shell
 wget https://zenodo.org/records/17601701/files/openlid-v3.bin
-```
-
-Example to get most likely labels for $DATA:
-
-```shell
-fasttext predict openlid-v3.bin $DATA > output.fasttext
-
 ```
 
 ## Dataset
@@ -110,6 +138,8 @@ If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.7
 
 The model is licensed under the [GNU General Public License v3.0](LICENSE). The individual datasets that make up the training dataset have different licenses but all allow (at minimum) free use for research - [a full list](licenses.md) is available in this repo.
 
+> [!NOTE]
+> The previous version -- OpenLID-v2 model and dataset is also available on HuggingFace: [OpenLID-v2](https://huggingface.co/datasets/laurievb/OpenLID-v2)
 
 ---------------------------------------------------------------------------------------------
 
