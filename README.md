@@ -49,7 +49,7 @@ def preprocess(text):
     return text
 
 model_path = hf_hub_download(
-    repo_id="HPLT/OpenLID-v3", filename="openlid-v3.bin"
+    repo_id="HPLT/OpenLID-v3", filename="openlid-v3.bin",
 ) # may take some time
 model = fasttext.load_model(model_path)
 text = "Maskinsjefen er oppteken av å løfta fram dei maritime utdanningane."
@@ -60,7 +60,7 @@ print(
           k=1,
           threshold=0.5,
           on_unicode_error="strict",
-  ),
+      ),
 )
 # should output: (('__label__nno_Latn',), array([0.99999893]))
 ```
