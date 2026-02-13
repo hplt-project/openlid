@@ -48,7 +48,9 @@ def preprocess(text):
     text = regex.sub(NONWORD_REPLACE_PATTERN, "", text)
     return text
 
-model_path = hf_hub_download(repo_id="HPLT/OpenLID-v3", filename="openlid-v3.bin") # may take some time
+model_path = hf_hub_download(
+    repo_id="HPLT/OpenLID-v3", filename="openlid-v3.bin"
+) # may take some time
 model = fasttext.load_model(model_path)
 text = "Maskinsjefen er oppteken av å løfta fram dei maritime utdanningane."
 text = preprocess(text)
