@@ -133,7 +133,7 @@ python3 make_training_openlid.py <output_dir> --skip_clean --skip_sort
 
 ## Citations
 
-If you use our model, please [cite us](https://aclanthology.org/2023.acl-short.75). If you use the dataset, please cite us plus all the articles in the `citations.bib` file. Thank you to everyone who put in so much work creating these datasets! 
+If you use our model, please [cite us](https://arxiv.org/abs/2602.13139), [OpenLID-v1 paper](https://aclanthology.org/2023.acl-short.75), and [OpenLID-v2 paper](https://arxiv.org/abs/2511.01066). If you use the dataset, please cite us plus all the articles in the `citations.bib` file. Thank you to everyone who put in so much work creating these datasets! 
 
 
 ## Licenses
