@@ -8,6 +8,8 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument('new_data_path')
+    parser.add_argument('old_data_path')
     parser.add_argument('--iso', default='lij_Latn')
     parser.add_argument('--script', default='LATIN')
     return parser.parse_args()
@@ -16,15 +18,14 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     ad = AlphabetDetector()
-    print(ad.detect_alphabet("ཐིམ་ཕུག། Amunfe ni icamwa ngirakamaro "))
-    oldata = pd.read_parquet(f'../data/{args.iso}.parquet')
+    oldata = pd.read_parquet(os.path.join(args.old_data_path, f'{args.iso}.parquet'))
     old_texts_set = set()
     for text in oldata.text:
         old_texts_set.update(set(text.lower().split('\n')))
-    out_file = f'../new_data/better_parquets/{args.iso}_wiki.txt'
+    out_file = os.path.join(args.new_data_path, f'{args.iso}_wiki.txt')
     to_write = set()
 
-    for path in glob(f'../new_data/{args.iso}/AA/wiki*'):
+    for path in glob(os.path.join(args.new_data_path, f'{args.iso}/AA/wiki*')):
         print(path)
         with open(path, 'r') as f:
             for line in f:

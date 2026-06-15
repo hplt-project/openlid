@@ -73,7 +73,7 @@ wget https://zenodo.org/records/17601701/files/openlid-v3.bin
 
 ## Dataset
 
-work in progress
+https://huggingface.co/datasets/HPLT/OpenLID-v3
 
 ### Adding GlotLID data
 
@@ -94,9 +94,18 @@ That script also ensures that wikipedia GlotLID data do not intersect with OpenL
 
 ### Adding Wikipedia data
 
-We also used the most recent (at the fall 2025) Wikipedia data for some languages in v3.
+We also used 1st October 2025 Wikipedia dumps for some languages in v3.
 
-`cd add_data/wikipedia`
+```
+pip install wikiextractor
+python -m wikiextractor.WikiExtractor <lang>wiki-20251001-pages-articles-multistream.xml.bz2
+cd add_data/wikipedia
+```
+
+! for frp_Latn we used HFWikipedia
+! for bod_Tibt, frp_Latn we removed entries shorter than 2 whitespace-separated tokens (it removed artifacts like URLs, article headers etc.)
+
+We ended up not changing OpenLID-v2's data for Ligurian.
 
 ## Training
 
