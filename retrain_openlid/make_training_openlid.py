@@ -71,8 +71,7 @@ if args.parquet_to_clean:
 
 if not args.skip_clean:
     # load dataset (will cache in $HOME/.cache/huggingface
-    #ds = load_dataset('laurievb/OpenLID-v2', split='train')
-    ds = load_dataset("parquet", data_dir=args.data_dir, split='train')
+    ds = load_dataset('HPLT/OpenLID-v3', split='train')
     logging.info(ds[0])
     clean_and_write_out(ds, stage1_path)
 
