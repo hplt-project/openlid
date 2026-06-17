@@ -22,7 +22,7 @@ def parse_args():
                         help="run clean only on specified parquet OpenLID file (output $FILE.clean.ft)")
     parser.add_argument("--skip_clean",
                         help="skip step one and start with sort/uniq", action="store_true")
-    parser.add_argument("--data_dir", default="../data/", help="directory with *.parquet files by language")
+    parser.add_argument("--data_dir", default="", help="directory with *.parquet files by language")
     parser.add_argument("--skip_sort", action="store_true", help="skip sort and start with sampling")
     return parser.parse_args()
 
@@ -71,7 +71,10 @@ if args.parquet_to_clean:
 
 if not args.skip_clean:
     # load dataset (will cache in $HOME/.cache/huggingface
-    ds = load_dataset('HPLT/OpenLID-v3', split='train')
+    if not args.data_dir:
+        ds = load_dataset('HPLT/OpenLID-v3', split='train')
+    else:
+        ds = load_dataset("parquet", data_dir=args.data_dir, split='train')
     logging.info(ds[0])
     clean_and_write_out(ds, stage1_path)
 
