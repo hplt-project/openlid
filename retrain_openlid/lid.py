@@ -2,6 +2,8 @@ import argparse
 import os
 
 import fasttext
+import numpy as np
+assert np.__version__.startswith("1.")
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_dir', default="/scratch/project_465002259/eurolid/dzo-lij-bam/")
